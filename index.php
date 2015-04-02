@@ -14,38 +14,62 @@
 
     </head>
     <body>     
-        <div class="container1">
-            <div id="banner">
-                <div class="search1">
-                    <form>
-                        <p class="text-center">
-                            Học tiếng anh trực tiếp với
+        <div class="container">
+            <div class="banner">
+                <div class="row">
+                    <div class="col-lg-1">
+                        
+                    </div>
+                    <div class="col-lg-4 search1">
+                        <form>
+                            <p class="text-center">
+                                Học tiếng anh trực tiếp với
+                            </p>
+                            <input type="text" name="" class="textsearch1" >
+                            <button type="submit" class="btn btn-textsearch1"><span class="glyphicon glyphicon-search glyphicon1"></span> </button>
+                        </form>
+                    </div>
+                    <div class="col-lg-4 sodienthoai">    
+                        <p class="text-uppercase text-center">
+                            Hỗ trợ trực tuyến
                         </p>
-                        <input type="text" name="" class="textsearch1" >
-                        <button type="submit" class="btn btn-default btn-textsearch1"><span class="glyphicon glyphicon-search glyphicon1"></span> </button>
-                    </form>
-                </div>
-                <div id="sodienthoai" >
-                    <p class="text-uppercase text-center">
-                        Hỗ trợ trực tuyến
-                    </p>
-                    <span>
-                        012.346.789
-                    </span>
+                        <span>
+                            012.346.789
+                        </span>
+                    </div>
+                    <div class="col-lg-3">
+                    </div>
                 </div>
             </div>
             <!--end banner-->
-            
-            <div id="menu2" class="container" >
+            <div id="menu">
                 <ul class="nav navbar-nav">
-                    <?php 
-                    for($i=0;$i<=7;$i++){
-                        echo '<li ><a href="#" class="menu1" ></a></li>';
-                    }
-                    ?>
+                    <li ><a href="#"> <img class="menu1"  src="images/menu-trangchu.png" alt="dfs"> 
+                            <p class="text-uppercase" > Trang Chủ</p>
+                    </a></li>
+                    <li ><a href="#"> <img class="menu1"  src="images/menu-vechungtoi.png" alt="dfs"> 
+                            <p class="text-uppercase" > Về Chúng tôi</p>
+                    </a></li>
+                    <li ><a href="#"> <img class="menu1"  src="images/menu-lichhoc.png" alt="dfs"> 
+                            <p class="text-uppercase" > Lịch Học</p>
+                    </a></li>
+                    <li ><a href="#"> <img class="menu1"  src="images/menu-monhoc.png" alt="dfs"> 
+                            <p class="text-uppercase" > Môn Học</p>
+                    </a></li>
+                    <li ><a href="#"> <img class="menu1"  src="images/menu-afg.png" alt="dfs"> 
+                            <p class="text-uppercase" > FAQ</p>
+                    </a></li>
+                    <li ><a href="#"> <img class="menu1"  src="images/menu-lienhe.png" alt="dfs"> 
+                            <p class="text-uppercase" > Liên Hệ</p>
+                    </a></li>
+                    <li ><a href="#"> <img class="menu1"  src="images/menu-thuvien.png" alt="dfs"> 
+                            <p class="text-uppercase" > Thư viện</p>
+                    </a></li>
+                    <li ><a href="#"> <img class="menu1"  src="images/menu-hocvai.vn.png" alt="dfs"> 
+                            <p class="text-uppercase" > Hocmai.vn</p>
+                    </a></li>
                 </ul>
               </div><!-- /end menu -->
-              <div id="baoquanh">
               <nav class="navbar navbar-default dangnhap">
                 <div class="container-fluid">
                     <form class="navbar-form navbar-left" role="search">
@@ -59,7 +83,7 @@
                           <span id="iconmatkhau"></span>
                           <input type="text" class="form-control" placeholder="Mật Khẩu">
                       </div>
-                      <button type="submit" class="btn btn-default btndangnhap">
+                      <button type="submit" class="btn btndangnhap">
                           Đăng Nhập
                       </button>
                     </form>
@@ -81,14 +105,13 @@
                       </ul>
                 </div><!-- /.container-fluid -->
               </nav>
-              
               <div id="header">
-                <div id="sidebar-left" class="nav navbar-left">
+                <div class="col-lg-8 nav navbar-left sidebar-left">
                     
                 </div>
                 <!--end sidebar left-->
                 
-                <div id="sidebar-ringt" class="nav navbar-right">
+                <div class="col-lg-4 nav navbar-right sidebar-ringt">
                     <p class="text-center text-uppercase" id="danhngon">Danh Ngôn Học Tập</p>
                     <marquee id="hoho" direction="down" scrolldelay="5" scrollamount="2" onmouseover="this.stop()" onmouseout="this.start()">
                         <ul class="chaychu">  

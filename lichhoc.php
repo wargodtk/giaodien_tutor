@@ -26,7 +26,7 @@
                                 Học tiếng anh trực tiếp với
                             </p>
                             <input type="text" name="" class="textsearch1" >
-                            <button type="submit" class="btn btn-default btn-textsearch1"><span class="glyphicon glyphicon-search glyphicon1"></span> </button>
+                            <button type="submit" class="btn btn-textsearch1"><span class="glyphicon glyphicon-search glyphicon1"></span> </button>
                         </form>
                     </div>
                     <div class="col-lg-4 sodienthoai">    
@@ -83,7 +83,7 @@
                           <span id="iconmatkhau"></span>
                           <input type="text" class="form-control" placeholder="Mật Khẩu">
                       </div>
-                      <button type="submit" class="btn btn-default btndangnhap">
+                      <button type="submit" class="btn btndangnhap">
                           Đăng Nhập
                       </button>
                     </form>

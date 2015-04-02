@@ -151,35 +151,35 @@
 /*main*/
 #header {
     margin: 0 auto;
-    width: 961px;
 }
 .main {
-    margin: 0 0 0 -12px;;
+    margin: 0 0 0 -8px;;
 }
-#sidebar-left{
+.sidebar-left{
     background: url("../images/gioithieu.png") no-repeat;
     width: 598px;
     height: 455px;
     border: 2px solid  #ebebeb;
     border-radius: 14px;
-    margin:0 10px 0 0;
+    margin:0 0px 0 6px;
 }
 #danhngon{
     margin: -31px 10px 10px 10px;
     font-size: 20px;
     color: #ffffff;
 }
-#sidebar-ringt{
+.sidebar-ringt{
     background: url("../images/banner-right.png") no-repeat;
     height: 455px;
     width: 367px;
-      padding: 34px 0px 0px 0px;
+    padding: 34px 0px 0px 0px;
+    margin: 0;
 
 }
-#sidebar-ringt img{
-      position: absolute;
-  top: 451px;
-  right: 453px;
+.sidebar-ringt img{
+    position: absolute;
+    top: 238px;
+    right: 274px;
 }
 #hoho{
       height: 381px
@@ -296,6 +296,7 @@
 /*footer*/
 #footer{
     background: url("../images/footer.png") no-repeat;
+    margin:0 auto;
     width: 1020px;
     height: 165px;
     font-size: 16px;
@@ -318,7 +319,7 @@
     margin: 29px -125px 10px 114px;
 }
 #footer p{
-    padding: 23px 0px;
+    padding: 26px 0 0 0px;
     font-size: 13px;
     color: #ffffff;
 }
@@ -419,7 +420,10 @@
     background-color: #004b7d;
     margin:20px;
 }
-
+.content-lichhoc{
+    padding:0;
+    width: 724px
+}
 .ngay{
     height: 102px;
     width: 102px;
