@@ -2,7 +2,6 @@
 .container{
     width: 1020px;
     margin: 0 auto;
-/*    border: 2px solid #ebebeb;*/
     background: url("../images/bgr-hoho.png")
 }
 
@@ -11,34 +10,87 @@
     background: url("../images/banner.gif") no-repeat;
 }
 
-/*.search1{
+.search1{
     width: 290px;
-    float: left;
-    margin: 5px 10px 10px 147px;
+    margin: 5px 10px 10px 60px;
     color: #ffffff;
     font-size: 21px;
     
-}*/
+}
 
-/*.textsearch1{
-    float: left;
+.textsearch1{
     border: 1px solid #035891;
     background-color: #035891;
     width: 290px;
     border-radius: 12px;
-}*/
+}
 
+.textsearch1:focus {
+    outline: none !important;
+    border: 1px solid #035891;
+    box-shadow: 0 0 10px #719ECE;
+}
+.btn-textsearch1{
+    width: 35px;
+    height: 31px;
+    float: left;
+    background-color: #035891;
+    top: 42px;
+    left: 266px;
+    position: absolute;
+    border: none;
+    border-radius: 6px;
+
+}
+.btn-textsearch1:hover{
+    background-color: #009de1;
+}
+
+.sodienthoai{
+  font-weight:bold;
+}
+
+.sodienthoai p{
+    color: #0169b0;
+    font-size: 16px;
+    margin: 22px 0px 3px -64px;
+}
+.sodienthoai span{
+    color: #000000;
+    font-size: 25px;
+    margin: 10px 0px 0px 69px;
+}
+.glyphicon1{
+    color: #0367aa;
+}
 
 /*menu*/
-#menu2{
-    width: 991px;
-    margin: 0 auto 12px auto;
+#menu{
+    height: 50px;
+    width: 1020px;
+    margin: 1px 0px 7px 8px;
+}
+#menu ul li a{
+    padding: 0px;
+}
+#menu ul li p{
+    color: #000000;
+    font-size: 11px;
+    margin: -28px 0px 0px 13px;
+    width: 98px;
+    text-align: center;
+}
+#menu ul li a:hover{
+    border: none;
+    border-radius: 20px;
 }
 .menu1{
-    background: url("../images/menu-trangchu.png") no-repeat;
     width: 120px;
     height: 52px;
-    margin: 0 0px;
+    margin: 0 1px;
+}
+.chumenu{
+    padding:10px 10px 10px 10px
 }
 
 /*login*/
@@ -48,12 +100,11 @@
 }
 .dangnhap{
    border-radius: 10px;
-   width: 961px;
   font-size: 18px;
   color: #ffffff;
    height: 41px;
    background-color: #9dd153;
-   margin: 0 auto;
+   margin: 0 20px 0 7px;
 }
 #icondangnhap{
     background: url("../images/menu2-userp.png") no-repeat;
@@ -100,11 +151,10 @@
 /*main*/
 #header {
     margin: 0 auto;
-      width: 961px;
+    width: 961px;
 }
-#main {
-    margin: 0 auto;
-      width: 975px;
+.main {
+    margin: 0 0 0 -12px;;
 }
 #sidebar-left{
     background: url("../images/gioithieu.png") no-repeat;
@@ -328,8 +378,6 @@
 /*lich hoc*/
 .content-lichhoc{
     background-color: #dbf0fe;
-    width: 726px;
-    margin: 0px 7px 14px 0px;
     border: 5px solid  #dbf0fe;
     border-radius: 14px;
 
