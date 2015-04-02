@@ -17,7 +17,9 @@
         <div class="container">
             <div class="banner">
                 <div class="row search1">
-
+                    <div class="col-lg-2">
+                        
+                    </div>
                     <div class="col-lg-4">
                         <form>
                             <p class="text-center">
