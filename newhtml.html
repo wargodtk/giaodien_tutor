@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>test</title>
+        <meta charset="utf-8" />
+        <!-- css -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <!-- JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        
+        <script >
+        $(document).ready(function(){
+            $('.slider1').bxSlider({
+              slideWidth: 200,
+              minSlides: 2,
+              maxSlides: 3,
+              slideMargin: 10
+            });
+          });
+        </script>
+    </head>
+    <body>     
+        <div class="container">
+            <div class="row">
+            <div class="col-xs-6 col-md-3">
+              <a href="#" class="thumbnail">
+                  <img src="images/menu-lichhoc.png" alt="fsdf">
+              </a>
+            </div>
+          </div>
+        </div>
+</div>
+
+        <!--end container-->
+        
+    </body>
+</html>   
+<div id="lichhoc-left">
+                                <?php
+                                    for($i=0;$i<=6;$i++){
+                                ?>
+                                    <div class="ngay">
+                                        <p class="text-uppercase text-center text">
+                                            mon
+                                        </p>
+                                        <p class="text-uppercase text-center">
+                                            (29/3/2015)
+                                        </p>
+                                    </div>
+                                <?php
+                                    }
+                                ?>
+                            </div>
+                            <!--end lich hoc left-->
+                            <div id="lichhoc-right">
+                                
+                            </div>
+                            <!--end lich hoc ringt-->
