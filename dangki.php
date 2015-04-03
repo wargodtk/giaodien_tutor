@@ -17,23 +17,23 @@
         <div id="dangkithongtin">
             <p class="text-center thongtin text-uppercase">Đăng Kí Thông Tin Học viên</p>
             <form class="frm">
-                <div id="baochum">
-                <div class="form-group frmgrout">
-                    <label class="chufrm">Tên của bạn: </label>
-                    <input type="text" class="form-control" placeholder="">
-                </div>
-                <div class="form-group frmgrout">
-                    <label class="chufrm">Email</label>
-                    <input type="email" class="form-control" placeholder="">
-                </div>
-                <div class="form-group frmgrout">
-                    <label class="chufrm">Số điện thoại</label>
-                    <input type="text" class="form-control"placeholder="">
-                </div>
-                </div>
-                <div class="form-group hjx">
-                    <label class="chufrm">Câu hỏi của bạn</label>
-                    <input type="text" class="form-control cauhoi"placeholder="">
+                <div class="col-lg-6">
+                    <div class="form-group frmgout">
+                        <label class="chufrm">Tên của bạn: </label>
+                        <input type="text" name="ten" class="form-control" placeholder="">
+                    </div>
+                    <div class="form-group frmgrout">
+                        <label class="chufrm">Email</label>
+                        <input type="email" name="email" class="form-control" placeholder="">
+                    </div>
+                    <div class="form-group frmgrout">
+                        <label class="chufrm">Số điện thoại</label>
+                        <input type="text" class="form-control" name="sdt" >
+                    </div>
+                    </div>
+                <div class="col-lg-6 form-group dangkiright">
+                    <label class="chufrm" >Câu hỏi của bạn</label>
+                    <textarea name="cauhoi"></textarea>
                 </div>
                 
                 <button type="submit" class="btn btn-primary dangki text-uppercase">Đăng Kí</button>

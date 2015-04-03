@@ -351,19 +351,18 @@
     height: 336px;
     float: left;
 }
-.hjx{
-    float: left;
-    margin: 0px 0px 0px 68px;
+.dangkiright{
     width: 370px;
 }
-.cauhoi{
+.dangkiright textarea{
       height: 75px;
+      width: 373px;
 }
 .dangki{
     background-color: #009ce0;
     width: 242px;
     height: 54px;
-    margin:30px 10px 0 145px;
+    margin:30px 10px 0 74px;
     border: 1px solid #47aadd;
     font-size: 22px;
 }
