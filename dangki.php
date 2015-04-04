@@ -22,11 +22,11 @@
                         <label class="chufrm">Tên của bạn: </label>
                         <input type="text" name="ten" class="form-control" placeholder="">
                     </div>
-                    <div class="form-group frmgrout">
+                    <div class="form-group frmgout">
                         <label class="chufrm">Email</label>
                         <input type="email" name="email" class="form-control" placeholder="">
                     </div>
-                    <div class="form-group frmgrout">
+                    <div class="form-group frmgout">
                         <label class="chufrm">Số điện thoại</label>
                         <input type="text" class="form-control" name="sdt" >
                     </div>

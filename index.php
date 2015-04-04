@@ -105,7 +105,7 @@
                       </ul>
                 </div><!-- /.container-fluid -->
               </nav>
-              <div id="header">
+              <div id="header" class="row">
                 <div class="col-lg-8 nav navbar-left sidebar-left">
                     
                 </div>
@@ -158,9 +158,8 @@
               </div>
               <!--end header-->
               <div class="clearfix"></div>
-            <div id="main">
-                <div id="content">
-                    <div id="content-left" class="nav navbar-left">
+              <div class="row main">
+                    <div class="col-lg-3 content-left">
                         <div id="nganhang">
                             <p class="text-center text-uppercase">
                                 Thanh Toán Trực Tuyến
@@ -189,18 +188,19 @@
                     <!--end content-left-->
                     
                     <div  class="nav navbar-right content-right">
+                        <div id="tieude">
+                            <p class="text-primary text-center text-uppercase">
+                                video gioi thieu
+                            </p>
+                        </div>
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NmugSMBh_iI?showinfo=0"></iframe>
                     </div>
                     <!--end content-right-->
                     <div  class="nav navbar-right content-right1">
                         <img src="images/facebook.png" alt="dfs">
                     </div>
-                    
-                </div>
-                <!--end content-->
             </div>
             <!--end main-->
-            </div>
             <div class="clearfix"></div>
             <div id="footer" class="text-capitalize">
                 <div class="footer1">
