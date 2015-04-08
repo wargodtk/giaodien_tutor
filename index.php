@@ -118,31 +118,31 @@
                             <li><p class="chayli">
                                     “Learning to know, learning to do, learning to live together and learning to be.” <br>
                                 UNESCO – Four pillars of learning
-                                </p><span class="chim"></span>
+                                </p><span class="chimm"></span>
                             </li>
                             
                             <li class="aaaaaaa"><p class="chayli1">
                                     “Anyone who stops learning is old, whether at twenty or eighty. Anyone who keeps learning stays young.” <br>
                                     Henry Ford
-                                </p><span class="chim2"></span>
+                                </p><span class="chim23"></span>
                             </li>
                             
                             <li><p class="chayli">
                                     “Education is the most powerful weapon you can use to change the world” <br>
                                     Nelson Mandela 
-                                </p><span class="chim"></span>
+                                </p><span class="chimmm"></span>
                             </li>
                             
                             <li class="aaaaaaa"><p class="chayli1">
                                     “The roots of education is bitter but the fruit sweet” <br>
                                     Aristotle 
-                                </p><span class="chim2"></span>
+                                </p><span class="chim22"></span>
                             </li>
                             
                             <li><p class="chayli">
                                     “The limits of your language are the limits of your world” <br>
                                     Ludwig Wittgenstein 
-                                </p><span class="chim"></span>
+                                </p><span class="chimmmm"></span>
                             </li>
                             
                             <li class="aaaaaaa"><p class="chayli1">

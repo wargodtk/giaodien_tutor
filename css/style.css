@@ -206,6 +206,28 @@ body{
     float: left;
     margin: -29px 0px 0px 215px; 
 }
+.chimm {
+    background: url("../images/sidechay3.png") no-repeat;
+    width: 93px;
+    height: 61px;
+    float: left;
+    margin: -29px 0px 0px 215px; 
+}
+
+.chimmmm {
+    background: url("../images/sidechay5.png") no-repeat;
+    width: 93px;
+    height: 61px;
+    float: left;
+    margin: -29px 0px 0px 215px; 
+}
+.chimmm{
+    background: url("../images/sidechay2.png") no-repeat;
+    width: 93px;
+    height: 61px;
+    float: left;
+    margin: -29px 0px 0px 215px;
+}
 .chayli{
     background-color: #2d3e52;
     float: left;
@@ -234,6 +256,23 @@ body{
     float: left;
       margin: -23px 0px 0px -50px;
 }
+.chim23 {
+    background: url("../images/sidechay4.png") no-repeat;
+    width: 93px;
+    height: 61px;
+    float: left;
+      margin: -23px 0px 0px -50px;
+}
+
+
+.chim22 {
+    background: url("../images/sidechay1.png") no-repeat;
+    width: 93px;
+    height: 61px;
+    float: left;
+      margin: -23px 0px 0px -50px;
+}
+
 
 .aaaaaaa{
     margin: 0px 0px 10px 37px;
