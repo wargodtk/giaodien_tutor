@@ -148,7 +148,7 @@
                             <li class="aaaaaaa"><p class="chayli1">
                                 “If you put in the work to sharpen the steel, it will eventually turn into needle” <br>
                                 Vietnamese Proverb 
-                                </p><span class="chim2"></span>
+                                </p><span class="chim2234"></span>
                             </li>
                         </ul>
                         </marquee>
